@@ -1,6 +1,6 @@
-output "User Name"{
+output "UserName"{
     value= aws_iam_user.bob.name
 }
-output "Group Name"{
+output "GroupName"{
     value= aws_iam_group.sysusers.name
 }
